@@ -1,0 +1,67 @@
+.orSignUp {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 160%;
+}
+.googleIcon {
+  width: 40px;
+  height: 40.5px;
+  position: relative;
+  object-fit: cover;
+}
+.socialLoginLabels {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.24px;
+}
+.socialLogin,
+.socialLogin1 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-xs) var(--padding-6xl)
+    var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  min-width: 125px;
+}
+.socialLogin1 {
+  flex: 0.5692;
+  padding: var(--padding-6xl) var(--padding-21xl) var(--padding-6xl)
+    var(--padding-22xl);
+}
+.socialLoginContainer,
+.socialLoginContainer1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialLoginContainer1 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  gap: 14px 7.6px;
+  text-align: center;
+  color: var(--light-text);
+}
+.socialLoginContainer {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 450px) {
+  .socialLogin1 {
+    flex: 1;
+  }
+}

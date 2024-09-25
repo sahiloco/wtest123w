@@ -1,0 +1,411 @@
+.mainContentIcon {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.imageGalleryIcon,
+.imagePlaceholderIcon {
+  height: 86px;
+  width: 160px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.imagePlaceholderIcon {
+  height: 100%;
+  width: 148.4px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  max-height: 100%;
+  overflow: hidden;
+}
+.galleryIndicatorIcon {
+  height: 24.6px;
+  width: 31.7px;
+  position: relative;
+  z-index: 1;
+}
+.imageGallery,
+.mainContent,
+.mainContent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.imageGallery {
+  flex-direction: row;
+  padding: var(--padding-11xl-6) var(--padding-44xl) var(--padding-11xl-8)
+    var(--padding-45xl);
+  position: relative;
+  flex-shrink: 0;
+}
+.mainContent,
+.mainContent1 {
+  max-width: 100%;
+}
+.mainContent1 {
+  border-radius: var(--br-5xs);
+  overflow-x: auto;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.mainContent {
+  width: 782px;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.brightwoodsCabin {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.bridlepathOntarioCanada {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+}
+.listingHeader {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  min-width: 281px;
+  max-width: 100%;
+}
+.heartIcon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.listingHeaderParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+}
+.ratingValue {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.ratingStarsIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.reviews {
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: 0.02em;
+}
+.reviewCount {
+  border-left: 1px solid var(--light-grey-border);
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-7xs) 0 var(--padding-5xs);
+  color: var(--accent);
+}
+.infoWrapper,
+.ratingAvailability,
+.reviewCount {
+  display: flex;
+  justify-content: flex-start;
+}
+.ratingAvailability {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-base);
+}
+.infoWrapper {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.welcomeToOur {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 160%;
+}
+.infoContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  max-width: 100%;
+}
+.night,
+.price {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  min-width: 89px;
+}
+.night {
+  min-width: 49px;
+}
+.nightlyPrice,
+.priceDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priceDetails {
+  flex-direction: column;
+  padding: var(--padding-lg-5) 0 0;
+  font-size: var(--font-size-lg);
+}
+.nightlyPrice {
+  flex-direction: row;
+  gap: var(--gap-10xs);
+}
+.bestTimeTo {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.bookingRecommendation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.trendDetails {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.bookingContainer,
+.bookingTrend,
+.trendDetails {
+  display: flex;
+  align-items: flex-start;
+}
+.bookingTrend {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-4xs-5) 0 0;
+  font-size: var(--font-size-base);
+  color: var(--accent);
+}
+.bookingContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.searchFlightsButton {
+  align-self: stretch;
+  height: 58px;
+}
+.bookingContainerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  font-size: var(--font-size-17xl);
+}
+.hostImageIcon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.joinedInMay,
+.michelleWard {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.michelleWard {
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 109px;
+}
+.joinedInMay {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+}
+.hostName {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-11xs);
+  min-width: 188px;
+}
+.badgeIcon {
+  height: 18.4px;
+  width: 12.3px;
+  position: relative;
+}
+.superhost {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  font-family: var(--font-archivo);
+  color: var(--accent);
+  text-align: left;
+  display: inline-block;
+  min-width: 76px;
+}
+.hostBadge,
+.hostInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hostBadge {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-3xs) var(--padding-5xs)
+    var(--padding-2xs);
+  background-color: var(--color-lightcyan);
+  border-radius: var(--br-mid);
+  gap: var(--gap-8xs);
+}
+.hostBadge:hover {
+  background-color: var(--color-powderblue);
+}
+.hostInfo {
+  align-self: stretch;
+  border-top: 0.7px solid var(--light-grey-border);
+  padding: var(--padding-6xs) 0 0;
+  gap: var(--gap-3xs);
+  color: var(--dark);
+}
+.contentWrapper,
+.host,
+.listingInfo,
+.pageContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.host {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-base);
+  color: var(--light-text);
+}
+.contentWrapper,
+.listingInfo,
+.pageContent {
+  max-width: 100%;
+}
+.listingInfo {
+  flex: 1;
+  border-radius: var(--br-6xs);
+  background-color: var(--white);
+  border: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-17xl) var(--padding-8xl);
+  gap: var(--gap-9xl);
+  min-width: 344px;
+}
+.contentWrapper,
+.pageContent {
+  flex-direction: row;
+}
+.contentWrapper {
+  flex: 1;
+  gap: var(--gap-9xl);
+}
+.pageContent {
+  align-self: stretch;
+  padding: 0 var(--padding-31xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-10xl);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1275px) {
+  .mainContent {
+    flex: 1;
+  }
+  .contentWrapper {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .mainContent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .listingHeaderParent {
+    flex-wrap: wrap;
+  }
+  .price {
+    font-size: var(--font-size-10xl);
+  }
+  .hostInfo {
+    flex-wrap: wrap;
+  }
+  .listingInfo {
+    padding-top: var(--padding-4xl);
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .pageContent {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .brightwoodsCabin {
+    font-size: var(--font-size-4xl);
+  }
+  .price {
+    font-size: var(--font-size-3xl);
+  }
+  .bookingContainer {
+    flex-wrap: wrap;
+  }
+  .searchFlightsButton {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,358 @@
+.amenities {
+  margin: 0;
+  width: 781.8px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.mdilakeIcon {
+  height: 21px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.lakeside {
+  position: relative;
+  display: inline-block;
+  min-width: 65px;
+}
+.amenityIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.tablertoolsKitchen2Icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.kitchen {
+  flex: 1;
+  position: relative;
+}
+.iconSetTwo {
+  width: 96px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.securityCamerasOn {
+  position: relative;
+}
+.iconSetFour {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.wifi {
+  position: relative;
+  display: inline-block;
+  min-width: 28px;
+}
+.amenitiessection1,
+.amenitiessection2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 195px;
+}
+.amenitiessection2 {
+  flex: 0.6055;
+  padding: 0 var(--padding-97xl) 0 0;
+}
+.coffeeMaker,
+.freezer,
+.glassStove {
+  position: relative;
+  display: inline-block;
+  min-width: 56px;
+}
+.coffeeMaker,
+.glassStove {
+  min-width: 96px;
+}
+.glassStove {
+  min-width: 85px;
+}
+.amenitiesGrid,
+.amenitiessection3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.amenitiessection3 {
+  flex: 0.6307;
+  flex-direction: column;
+  padding: 0 var(--padding-91xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 195px;
+}
+.amenitiesGrid {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+}
+.searchFlightsButton {
+  width: 185px;
+  height: 48px;
+}
+.searchFlightsButton:hover {
+  background-color: var(--color-saddlebrown);
+}
+.amenitiesContainer,
+.amenitiesList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.amenitiesList {
+  align-self: stretch;
+  gap: var(--gap-12xl);
+  font-size: var(--font-size-base);
+}
+.amenitiesContainer {
+  flex: 1;
+  gap: var(--gap-xl);
+  min-width: 547px;
+  max-width: 100%;
+}
+.whereYoullBe {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.locationIcon {
+  height: 11px;
+  width: 9.3px;
+  position: relative;
+}
+.locationDetails,
+.locationName {
+  display: flex;
+  justify-content: flex-start;
+}
+.locationName {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-base);
+}
+.locationDetails {
+  width: 326px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.suncloudIcon {
+  height: 47px;
+  width: 47px;
+  position: relative;
+}
+.temperature,
+.weatherDetail {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.temperature {
+  line-height: 150%;
+  font-weight: 600;
+}
+.weatherDetail {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+  display: inline-block;
+  min-width: 94px;
+}
+.weatherInfo,
+.weatherInfo1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.weatherInfo1 {
+  flex: 1;
+  flex-direction: column;
+  padding: 0;
+  gap: var(--gap-11xs);
+}
+.weatherInfo {
+  width: 108px;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.sunIcon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.c,
+.cWrapper {
+  align-self: stretch;
+}
+.c {
+  position: relative;
+}
+.cWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sunParent {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent,
+.sunGroup,
+.sunParent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sunGroup {
+  display: flex;
+  align-items: center;
+}
+.frameParent {
+  display: none;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.locationInfo,
+.weather {
+  display: flex;
+  flex-direction: row;
+}
+.weather {
+  width: 154px;
+  border-radius: var(--br-xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  text-align: center;
+  font-size: var(--font-size-3xs);
+}
+.locationInfo {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.mapContainerIcon,
+.mapIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mapIcon {
+  align-self: stretch;
+  height: 248px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  object-fit: cover;
+}
+.mapContainerIcon {
+  width: 37px;
+  height: 65px;
+  position: absolute;
+  margin: 0 !important;
+  right: 12px;
+  bottom: 161px;
+  border-radius: var(--br-9xs);
+  z-index: 1;
+}
+.locationContainer {
+  align-self: stretch;
+  position: relative;
+  gap: var(--gap-xl);
+}
+.location,
+.locationAmenities,
+.locationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.locationAmenities {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-lgi);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1275px) {
+  .location {
+    flex: 1;
+  }
+  .locationAmenities {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .amenitiesGrid {
+    flex-wrap: wrap;
+  }
+  .amenitiesContainer {
+    min-width: 100%;
+  }
+  .locationInfo {
+    flex-wrap: wrap;
+  }
+  .location {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .amenities {
+    font-size: var(--font-size-lgi);
+  }
+  .amenitiessection2,
+  .amenitiessection3 {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+    flex: 1;
+  }
+  .amenitiesList {
+    gap: var(--gap-mini);
+  }
+  .whereYoullBe {
+    font-size: var(--font-size-lgi);
+  }
+}

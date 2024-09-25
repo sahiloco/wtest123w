@@ -1,0 +1,170 @@
+.vectorIcon {
+  height: 10px;
+  width: 6.7px;
+  position: relative;
+}
+.superhost {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+.heartIcon,
+.vectorParent {
+  position: absolute;
+  margin: 0 !important;
+  top: 10px;
+}
+.vectorParent {
+  left: 10px;
+  border-radius: var(--br-smi);
+  background-color: var(--white);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-6xs);
+  gap: var(--gap-11xs);
+  z-index: 0;
+}
+.heartIcon {
+  width: 30px;
+  height: 30px;
+  right: 9.5px;
+}
+.stayFavorites {
+  height: 143px;
+  width: 181px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  background-image: url(/public/stay-favorites@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 181px;
+}
+.brightwoodsEstate {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.bridlepathOntarioCanada {
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.02em;
+  color: var(--light-text);
+}
+.stayLocation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.stayRatingIcons {
+  height: 13px;
+  width: 13px;
+  position: relative;
+}
+.stayRatings {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-sm);
+}
+.stayInfo,
+.stayPriceInfo,
+.stayRatings {
+  display: flex;
+  justify-content: flex-start;
+}
+.stayInfo {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-14xl) 0 0;
+  gap: var(--gap-xs);
+}
+.stayPriceInfo {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-11xs);
+}
+.stayPriceTrends,
+.userIcon {
+  height: 14px;
+  width: 1px;
+  position: relative;
+}
+.userIcon {
+  width: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.guests {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  min-width: 56px;
+}
+.stayGuestInfo {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-11xs);
+  font-size: var(--font-size-sm);
+  color: var(--light-text);
+}
+.stayDetails,
+.stayGuestInfo,
+.stayPricing,
+.staycard {
+  display: flex;
+  justify-content: flex-start;
+}
+.stayPricing {
+  width: 164px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+  color: var(--accent);
+}
+.stayDetails,
+.staycard {
+  flex: 1;
+  align-items: flex-start;
+}
+.stayDetails {
+  flex-direction: column;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  min-width: 164px;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+}
+.staycard {
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: row;
+  min-width: 325px;
+  max-width: 100%;
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--accent);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 450px) {
+  .stayFavorites {
+    flex: 1;
+  }
+  .staycard {
+    flex-wrap: wrap;
+  }
+}
